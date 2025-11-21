@@ -1,0 +1,37 @@
+{
+  "development": {
+    "username": "neondb_owner",
+    "password": "npg_8VrojQnltf1U",
+    "database": "neondb",
+    "host": "ep-broad-feather-a4id4i50-pooler.us-east-1.aws.neon.tech",
+    "port": 5432,
+    "dialect": "postgres",
+    "dialectOptions": {
+        "ssl": {
+            "require": true,
+            "rejectUnauthorized": false
+        }
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "neondb_owner",
+    "password": "npg_8VrojQnltf1U",
+    "database": "neondb",
+    "host": "ep-broad-feather-a4id4i50-pooler.us-east-1.aws.neon.tech",
+    "port": 5432,
+    "dialect": "postgres",
+    "dialectOptions": {
+        "ssl": {
+            "require": true,
+            "rejectUnauthorized": false
+        }
+    }
+  }
+}
