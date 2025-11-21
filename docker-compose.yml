@@ -52,7 +52,7 @@ services:
       - devops
 
   back:
-    image: jcamposar/fullstack-back:latest
+    image: vicenteoyarzun/et-p3-devops:latest
     container_name: back
     ports:
       - "3001:3001"
